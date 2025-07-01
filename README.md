@@ -20,6 +20,15 @@ A modern **Real Estate Business Website** with an **Admin Dashboard** to manage 
 - Multer (File upload handling)
 - CORS & Dotenv
 
+
+### Database
+Use MongoDB Atlas
+
+URI : PORT=5000
+      mongodb+srv://<username>:<password>@cluster-name.mongodb.net/db-name?retryWrites=true&w=majority
+
+⚠️ Replace username, password, your-cluster, and your-database with your actual MongoDB Atlas details.
+
 ---
 
 ## 🔐 Admin Login Credentials
@@ -86,7 +95,7 @@ git clone https://github.com/Jeevika-Patanker/flipr-fullstack-task.git
 cd flipr-fullstack-task
 
 ```
-##🚀 Backend Setup
+## 🚀 Backend Setup
 
 cd backend
 npm install
@@ -100,19 +109,28 @@ Start the server:
 
 node server.js
 
-##💻 Frontend Setup
+### 💻 Frontend Setup
 
 cd ../frontend
 npm install
 npm start
 
-###🌍 Live Demo
-##📸 Screen Recorded video
+
+### 🌍 Live Demo
+
+## 📸 Screen Recorded video
+## 🎥 Live Demo Video
+
+[![Watch RealTrust Demo](https://img.youtube.com/vi/oYKWWBWoa3s/0.jpg)](https://www.youtube.com/watch?v=oYKWWBWoa3s)
+
+Alternate way to see live demo 
+[Watch Demo Video](./frontend/public/snapshot.mp4)
 
 
 
+## 📧 Contact
 
 
-###📧 Contact
 GitHub: @Jeevika-Patanker
-Email: jeevika.patanker@example.com
+
+Email: jeevikapatanker@gmail.com
