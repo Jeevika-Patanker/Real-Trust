@@ -1,0 +1,136 @@
+.client-section {
+  padding: 80px 40px;
+  background-color: #f9f5ff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.client-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.client-section h2 {
+  font-size: 36px;
+  color: #6a0dad;
+  margin-bottom: 40px;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.client-card {
+  background-color: #ffffff;
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.client-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 3px solid #8b5cf6;
+}
+
+.client-card p {
+  font-size: 16px;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.client-card h4 {
+  font-size: 18px;
+  color: #4b0082;
+  margin: 0;
+}
+
+.client-card small {
+  font-size: 14px;
+  color: #777;
+}
+@media (max-width: 768px) {
+  .client-section {
+    padding: 60px 20px;
+  }
+
+  .client-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .client-grid{
+    gap: 50px;
+  }
+  
+  .client-card {
+    padding: 16px;
+    max-width: 100%;
+  }
+
+  .client-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .client-card p {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .client-card h4 {
+    font-size: 17px;
+  }
+
+  .client-card small {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .client-section {
+    padding: 40px 16px;
+  }
+
+  .client-section h2 {
+    font-size: 24px;
+  }
+
+  .client-card {
+    padding: 14px;
+  }
+
+  .client-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .client-card p {
+    font-size: 14px;
+  }
+
+  .client-card h4 {
+    font-size: 16px;
+  }
+
+  .client-card small {
+    font-size: 12px;
+  }
+}
+
